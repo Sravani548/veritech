@@ -1,0 +1,119 @@
+.head{
+    
+    border:1px solid hsl(295, 100%, 50%);
+    background-color: hsl(295, 100%, 50%);
+    border-radius: 10px;
+    width:500px;
+    length: 50px;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+.body{
+    margin: auto;
+    line-height: 2px;
+    text-align: center;
+}
+.head2{
+    text-align: center;
+}
+.people1{
+    margin:20px 400px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.people2{
+    padding: 20px;
+    margin:30px 300px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.people3{
+    padding: 20px;
+    margin:30px 200px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+img{
+    height: 100px;
+    
+}
+.page{
+    margin: 100px;
+}
+.page1 a{
+    text-decoration: none;
+    line-height: 1px;
+    font-style: italic;
+    font-weight: bold;
+    color: hsl(295, 100%, 50%);
+}
+.page1 p{
+    font-weight: bold;
+    color: hsl(295, 100%, 50%);
+}
+#line{
+    text-align: center;
+}
+.page {
+    border-bottom: 2px solid black;
+}
+
+img:hover{
+    transform: rotateX('angle');
+}
+@media (max-width: 600px) {
+    .page {
+      margin: 10px;
+      padding: 10px;
+}
+}
+
+@media (max-width: 600px) {
+    .head {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .body {
+        padding: 10px;
+        line-height: 1.5; 
+        text-align: left;
+        
+    }
+
+    .head2 {
+        text-align: left;
+    }
+
+    .people1,
+    .people2,
+    .people3 {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .people1,
+    .people2,
+    .people3 > div {
+        margin-bottom: 10px;
+    }
+
+    .page1 {
+        padding: 10px;
+    }
+
+    .page {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
